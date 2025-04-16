@@ -1,0 +1,6 @@
+@AudioEmotionDetector_HostAddress = http://localhost:5253
+
+GET {{AudioEmotionDetector_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
