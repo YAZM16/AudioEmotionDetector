@@ -9,10 +9,10 @@ AudioEmotionDetector är en .NET 7 Web API-applikation som låter användare lad
 Projektet är uppdelat i följande lager:
 
 - `Controllers/` – Hanterar HTTP-anrop (GET, POST, PUT, DELETE)
-- `Models/` – Domänmodeller (t.ex. `User`, `AudioRecord`)
+- `Models/` – Domänmodeller ( `User`, `AudioRecord`)
 - `Mapping/` – Innehåller `DataSeeder` och `JwtTokenGenerator`
 - `Program.cs` – Bootstrapper för applikationen
-- `appsettings.json` – Konfiguration av t.ex. databaskoppling och JWT
+- `appsettings.json` – Konfiguration av databaskoppling och JWT
 - `Migrations/` – Hanterar EF Core databasschema
 - `wwwroot/AudioFiles` – Lagrar uppladdade ljudfiler
 
